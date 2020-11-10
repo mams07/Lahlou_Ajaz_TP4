@@ -16,9 +16,9 @@ public class AppDriver {
                     "A map/reduce program that counts the words in the input files.");
             programDriver.addClass("Discon", DisCon.class,
                     "A map/reduce that make a list of distinct containing trees in this file.");
-            programDriver.addClass("Listspecies", ListSpecies.class,
+            programDriver.addClass("List species", ListSpecies.class,
                     "A map/reduce that make a list of species of trees in this file.");
-            programDriver.addClass("Numberspec", NumTreeSpe.class,
+            programDriver.addClass("Number of tree species", NumTreeSpe.class,
                     "A map/reduce that make a list of the number of tree per species in this file.");
 
             exitCode = programDriver.run(argv);
